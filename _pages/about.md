@@ -2,23 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Graphics</a> and artificial intelligence.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: personal/me_new_resize.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Guangzhou</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I have always been interested in computers and programming, and I am very fond of the scenes in animated films; I am not satisfied and only stay in my imagination. I dream of making them like them. After I first came into contact with 3D software in 2016, I was out of control. I have been self-taught during this period. I like to give myself difficult problems, constantly challenge and break through myself. In 2017, I signed up for an online course to learn modeling and rendering. Later, I learned Houdini special effects and programming by myself, and I have embarked on a journey since then.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Like to **learn new knowledge**, like to **share**, like to **communicate**, like graphics and AI, Like programs, like brain holes.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+Motto: <span style="font-family:Verdana">Never say I won't.</span>

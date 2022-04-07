@@ -4,9 +4,9 @@ title: submenus
 nav: true
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: my-history
+      permalink: /myhistory/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: skills
+      permalink: /skills/
 ---

@@ -1,0 +1,209 @@
+
+<head>
+
+<style>
+* {
+box-sizing: border-box;
+}
+
+/* Control by jekyll data-theme */
+
+/* body {
+background-color: #ffffff;
+font-family: Helvetica, sans-serif;
+} */
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+position: relative;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+content: '';
+position: absolute;
+width: 6px;
+background-color: #FF9F55;
+top: 0;
+bottom: 0;
+left: 50%;
+margin-left: -3px;
+}
+
+/* my-timeline-container around content */
+.my-timeline-container {
+padding: 10px 40px;
+position: relative;
+background-color: inherit;
+width: 50%;
+}
+
+/* The circles on the timeline */
+.my-timeline-container::after {
+content: '';
+position: absolute;
+width: 25px;
+height: 25px;
+right: -13px;  /*Dot move on the rule*/
+background-color: white;
+border: 4px solid #FF9F55;
+top: 15px;
+border-radius: 50%;
+z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+left: 0%;
+}
+
+/* Place the container to the right */
+.right {
+left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+content: " ";
+height: 0;
+position: absolute;
+top: 22px;
+width: 0;
+z-index: 1;
+right: 30px;
+border: medium solid white;
+border-width: 10px 0 10px 10px;
+border-color: transparent transparent transparent rgba(170, 97, 219, 0.425);
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+content: " ";
+height: 0;
+position: absolute;
+top: 22px;
+width: 0;
+z-index: 1;
+left: 30px;
+border: medium solid white;
+border-width: 10px 10px 10px 0;
+border-color: transparent rgb(170, 97, 219, 0.425) transparent transparent;
+}
+
+/* Fix the circle for container on the right side */
+.right::after {
+left: -12px;  /* Dot move on the rule*/
+}
+
+/* The actual content */
+.content {
+padding: 20px 30px;
+/* background-color: white; */
+position: relative;
+border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+.timeline::after {
+left: 31px;
+}
+
+/* Full-width containers */
+.my-timeline-container {
+width: 100%;
+padding-left: 70px;
+padding-right: 25px;
+}
+
+/* Make sure that all arrows are pointing leftwards */
+.my-timeline-container::before {
+left: 60px;
+border: medium solid white;
+border-width: 10px 10px 10px 0;
+border-color: transparent white transparent transparent;
+}
+
+/* Make sure all circles are at the same spot */
+.left::after, .right::after {
+left: 15px;
+}
+
+/* Make all right containers behave like the left ones */
+.right {
+left: 0%;
+}
+}
+</style>
+</head>
+<body>
+
+<div class="timeline">
+    <div class="my-timeline-container right">
+        <div class="content">
+        <h3>2019.9 ~ 至今</h3>
+            <p style="font-weight: bold; color: #cc6dc7;">广州市·咏声动漫</p>
+            <p>研究开发中心 - 实时渲染</p>
+            <p>研究开发中心 - Pipeline</p>
+            <table><tr>
+                <img src="../assets/img/life/rtr-pbr1.png" width="70px" style="margin-right: 5px;">
+                <img src="../assets/img/life/rtr-pbr2-usd.gif" width="70px" style="margin-right: 5px;">
+                <img src="../assets/img/life/rtr-pbr.png" width="70px" style="margin-right: 5px;">
+            </tr></table>
+        </div>
+    </div>
+    <div class="my-timeline-container left">
+        <div class="content">
+        <h3>2018.8 ~ 2019.9</h3>
+            <p style="font-weight: bold; color: #cc6dc7;">杭州市·黑岩网络</p>
+            <p>动画部 - Houdini特效师</p>
+        </div>
+    </div>
+    <div class="my-timeline-container right">
+        <div class="content">
+        <h3>2017.9 ~ 2018.8</h3>
+            <p style="font-weight: bold; color: #cc6dc7;">家</p>
+            <p>自学动画与特效</p>
+            <table><tr>
+                <img src="../assets/img/life/model2.jpg" width="70px" style="margin-right: 5px;">
+                <img src="../assets/img/life/render1.jpg" height="70px" style="margin-right: 5px;">
+                <img src="../assets/img/life/render2.jpg" width="70px" style="margin-right: 5px;">
+                <img src="../assets/img/life/render3.jpg" width="70px" style="margin-right: 5px;">
+            </tr></table>
+            <a href="https://www.bilibili.com/video/BV1qs411V7g7">Link🔗</a>
+        </div>
+    </div>
+    <div class="my-timeline-container left">
+        <div class="content">
+        <h3>2017.2 ~ 2017.9</h3>
+            <p style="font-weight: bold; color: #cc6dc7;">塔城市·❓</p>
+            <p>🚫</p>
+        </div>
+    </div>
+    <div class="my-timeline-container right">
+        <div class="content">
+        <h3>2015.11 ~ 2016.11</h3>
+            <p style="font-weight: bold; color: #cc6dc7;">乌鲁木齐市·希尔顿酒店</p>
+            <p>客房送餐员</p>
+        </div>
+    </div>
+    <div class="my-timeline-container left">
+        <div class="content">
+        <h3>2014.12 ~ 2015.7</h3>
+            <p style="font-weight: bold; color: #cc6dc7;">石河子市·军垦汽车城</p>
+            <p>汽车维修工</p>
+        </div>
+    </div>
+    <div class="my-timeline-container right">
+        <div class="content">
+        <h3>2013.3 ~ 2016.1</h3>
+            <p style="font-weight: bold; color: #cc6dc7;">沙湾县中等职业技术学校</p>
+            <p>"汽车运用与维修" 专业</p>
+        </div>
+    </div>
+</div>
+
+</body>
