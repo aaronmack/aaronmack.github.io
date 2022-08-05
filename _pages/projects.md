@@ -5,6 +5,7 @@ permalink: /projects/
 description: My growing collection
 nav: true
 display_categories: [Graphics, AI, Work, Fun]
+nav_order: 2
 horizontal: false
 ---
 

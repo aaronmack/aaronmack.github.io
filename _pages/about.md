@@ -7,6 +7,7 @@ subtitle: <a href='#'>Graphics</a> and artificial intelligence.
 profile:
   align: right
   image: personal/me_new_resize.jpg
+  image_cicular: false # crops the image to make it circular
   address: >
     <p>Guangzhou</p>
 
