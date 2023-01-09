@@ -21,6 +21,8 @@ Feature showcase
     Finally achieve the effect of two pictures.
 </div>
 
-In this project, starting from part 03, we briefly explained some javascript and typescript, as well as some basic mathematical knowledge to lay the foundation for the graphics part, and finally we talked about part of the knowledge about rendering in graphics (mainly, we use python , html and javascript and webgpu)
+You can also put regular text between your rows of images.
+Say you wanted to write a little bit about your project before you posted the rest of the images.
+You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
 
 [https://github.com/AAaronMack/course-basics_computer_graphics](https://github.com/AAaronMack/course-basics_computer_graphics)
